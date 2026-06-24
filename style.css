@@ -1,0 +1,17 @@
+body {
+    background-image: url(assets/bg.jpg);
+    background-size: cover;
+}
+
+#page {
+    background-color: #F0E8C2;
+    border-radius: 16px;
+    box-sizing: border-box;
+    margin: 48px auto;
+    padding: 24px;
+    width: 800px;
+}
+
+img {
+    border-radius: 16px;
+}
