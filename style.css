@@ -59,3 +59,13 @@ h2 {
 #ingredients ul {
     padding-left: 25px;
 }
+
+footer {
+    text-align: center;
+    padding: 28px 0px;
+    color: #F0E8C2;
+} 
+
+footer img {
+    vertical-align: middle;
+}
