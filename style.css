@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     color: #573A37;
     font-family: "Alice", serif;
@@ -12,18 +18,32 @@ body {
 #page {
     background-color: #F0E8C2;
     border-radius: 16px;
-    box-sizing: border-box;
     margin: 48px auto;
     padding: 24px;
     width: 800px;
 }
 
+main {
+    padding: 24px;
+}
+
+
+main section + section {
+    margin-top: 24px;
+}
+
+#about p + p {
+    margin-top: 12px;
+}
+
+/* Image main */
 img {
     border-radius: 16px;
 }
 
 h1, h2 {
     color: #291B1A;
+    margin-bottom: 4px;
 }
 
 h1 {
@@ -33,4 +53,9 @@ h1 {
 
 h2 {
     font-size: 24px;
+    line-height: 150%;
+}
+
+#ingredients ul {
+    padding-left: 25px;
 }
