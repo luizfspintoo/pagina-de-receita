@@ -11,7 +11,8 @@ Desenvolvida para inspirar e facilitar o preparo em casa. Com um visual clean e 
 ### Como rodar o projeto 🔌
 
 - Ter o Git instalado e configurado.
-- Clonar o projeto: 
+- Clonar o projeto: git clone https://github.com/luizfspintoo/pagina-de-receita.git
+- Acessar o projeto: cd pagina-de-receita, abrir o Visual Studio Code ou outro editor de códido no projeto.
 - Instalar o plugin Live Server no Visual Studio Code, e clicar sobre o arquivo index.html 'Open with Live Server'.
 
 
